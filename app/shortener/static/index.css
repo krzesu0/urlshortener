@@ -25,6 +25,10 @@ html {
     width: auto;
   }
 
+  label span {
+    font-size: 0.5em;
+  }
+
   .label p {
     text-align: center;
     display: flex;
