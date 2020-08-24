@@ -4,13 +4,16 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-pylint-flask = "0.6"
-pylint-flask-sqlalchemy = "0.2.0"
+pylint = "*"
+pylint-flask = "*"
+pylint-flask-sqlalchemy = "*"
 
 [packages]
 Flask-Json = "0.3.4"
 dominate = "2.5.1"
 visitor = "0.1.3"
+flask = "*"
+flask-sqlalchemy = "*"
 
 [requires]
 python_version = "3.6"
